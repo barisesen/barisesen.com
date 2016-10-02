@@ -2,9 +2,8 @@
 layout: post
 title:  "Github Ssh Key Eklenmesi [Ubuntu]"
 date:   2016-08-31 15:50:58 +0300
-categories: merhaba
-permalink: /:categories/:title
-
+categories: Github
+permalink: /:title
 ---
 
 Merhaba, Ubuntu’da github kullanırken her yeni push olayında kullanıcı adı ve parola sorması belli biyerden sonra can sıkmaya başlıyor. Çözümü ise çok basit. Yapmamız gereken, oluşturacağımız ssh keyi github hesabımıza eklemek. Daha sonra her push yaptığımızda bizim için kullanıcı bilgileri arkada giriliyor olacak ve kullanıcı adı ve parolayı her defasında yazmak zorunda kalmayacağız.

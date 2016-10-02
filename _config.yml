@@ -17,8 +17,8 @@ title: Barış Esen
 email: iletisim@barisesen.com
 description: > # this means to ignore newlines until "baseurl:"
   Barış Esen Pamukkale Üniversitesi Bilgisayar Mühendisliği 2. sınıf öğrencisi. Web geliştiriciliği ve web uygulamalrı güvenliğine ilgi duyuyorum .
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://barisesen.github.io/barisesen.com/" # the base hostname & protocol for your site
+baseurl: "barisesen.com/" # the subpath of your site, e.g. /blog
+url: "https://barisesen.github.io/" # the base hostname & protocol for your site
 twitter_username: barisesenn
 github_username:  barisesen
 # Build settings

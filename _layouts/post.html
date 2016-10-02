@@ -54,18 +54,37 @@
       <div class="wrapper">
           <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    <p class="post-meta"><time datetime="2016-10-02T15:50:58+03:00" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time></p>
-  </header>
+            <header class="post-header">
+              <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+              <p class="post-meta"><time datetime="2016-10-02T15:50:58+03:00" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time></p>
+            </header>
 
-  <div class="post-content" itemprop="articleBody">
-      {{content}}
-  </div>
+            <div class="post-content" itemprop="articleBody">
+                {{content}}
+            </div>
+            {% if page.comments %}
+            <div id="disqus_thread"></div>
+            <script>
+              /**
+               *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+               *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+               */
+              var disqus_config = function () {
+                  this.page.url = {{page.url}};  // Replace PAGE_URL with your page's canonical URL variable
+                  this.page.identifier = {{post.url}}; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+              };
+              (function() {  // DON'T EDIT BELOW THIS LINE
+                  var d = document, s = d.createElement('script');
 
+                  s.src = '//barisesen.disqus.com/embed.js';
 
-</article>
-
+                  s.setAttribute('data-timestamp', +new Date());
+                  (d.head || d.body).appendChild(s);
+              })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+            {% endif %}
+          </article>
       </div>
     </main>
 

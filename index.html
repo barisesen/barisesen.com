@@ -12,7 +12,6 @@ layout: default
         <h2>
           <a class="post-link" href="https://barisesen.github.io/barisesen.com{{ post.url }}">{{ post.title | escape }}</a>
         </h2>
-        <span>{{post.url }}</span>
         <span>{{post.content | strip_html | truncatewords:50 }}</span>
       </li>
     {% endfor %}

@@ -21,32 +21,32 @@ Yazının devamında Google Cloud Messaging servisini kullanarak php yardımıyl
 
 Öncelikle [Google developer console](https://console.developers.google.com/) adresine giriyoruz. Bizi aşağıdaki gibi bir ekran karşılayacaktır.
 
-[![](https://i1.wp.com/barisesen.com/wp-content/uploads/2016/07/google-dev-console.png?resize=300%2C169&ssl=1)](https://barisesen.com/index.php/cordova-android-push-notification/google-dev-console-2/)
+![Google developer console](https://res.cloudinary.com/deuit9vp2/image/upload/barisesencom/google-dev-console.png)
 
 Daha sonra create a project yazan yere basarak yeni bir proje oluşturuyoruz.
 
-[![](https://i1.wp.com/barisesen.com/wp-content/uploads/2016/07/create-new-projeckt.png?resize=300%2C169&ssl=1)](https://barisesen.com/index.php/cordova-android-push-notification/create-new-projeckt/)
+![create new project](https://res.cloudinary.com/deuit9vp2/image/upload/barisesencom/create-new-project.png)
 
 Açılan ekrana proje adımızı yazıyor ve create butonuna basıyoruz. Projemiz oluşturulduktan sonra Google Cloud Messaging yazan linke tıklıyor ve GCM’i aktifleştiriyoruz.
-
-[![](https://i1.wp.com/barisesen.com/wp-content/uploads/2016/07/gcm-enable-300x169.png?resize=300%2C169&ssl=1)](https://barisesen.com/index.php/cordova-android-push-notification/gcm-enable/)
+<!--
+![](https://i1.wp.com/barisesen.com/wp-content/uploads/2016/07/gcm-enable-300x169.png?resize=300%2C169&ssl=1) -->
 
 Gcm aktifleştirildikten sonra sol taraftaki panelden Credentials’ a tıklıyoruz.
 
-[![](https://i2.wp.com/barisesen.com/wp-content/uploads/2016/07/credentials.png?resize=300%2C169&ssl=1)](https://barisesen.com/index.php/cordova-android-push-notification/credentials/)
+![](https://res.cloudinary.com/deuit9vp2/image/upload/v1475668759/barisesencom/credentials.png)
 
 Açılan sayfada Create Credentials’a tıklıyor ve API Key’i seçiyoruz. Açılan menüden Server key seçeneğine tıklıyoruz. İstediğimiz ismi yazarak Create butonuna basıyoruz.
 
-[![](https://i2.wp.com/barisesen.com/wp-content/uploads/2016/07/server-key-sec-1.png?resize=300%2C169&ssl=1)](https://barisesen.com/index.php/cordova-android-push-notification/server-key-sec-2/)
+![](https://res.cloudinary.com/deuit9vp2/image/upload/v1475668802/barisesencom/server-key-sec-1.png)
 
 Karşımıza çıkan Api keyi kopyalıyoruz.(Php ile yazacağımız server kodumuzda lazım edecektir.)  
 Sol yukarıda Google Apis’in yanındaki menüden IAM & Admin sayfasına geçiyoruz.
 
-[![ıam admin e git](https://i2.wp.com/barisesen.com/wp-content/uploads/2016/07/ıam-admin-e-git.png?resize=300%2C169&ssl=1)](https://barisesen.com/index.php/cordova-android-push-notification/iam-admin-e-git/)
+![ıam admin e git](https://res.cloudinary.com/deuit9vp2/image/upload/v1475668858/barisesencom/%C4%B1am-admin-e-git.png)
 
 Menudeki Settings’e tıklıyoruz ve karşımıza çıkan Project number’ı kopyalıyoruz. **Project numberı** **Sender Id** olarak kullanacağız.
 
-[![](https://i0.wp.com/barisesen.com/wp-content/uploads/2016/07/copy-project-number.png?resize=300%2C169&ssl=1)](https://barisesen.com/index.php/cordova-android-push-notification/copy-project-number/)
+![](https://res.cloudinary.com/deuit9vp2/image/upload/v1475668910/barisesencom/copy-project-number.png)
 
 Google Developer console’da ki işlemlerimizi tamamlamış olduk. Şimdi sıra cordova projesi oluşturup gerekli plugini dahil etmeye geldi.
 
@@ -56,7 +56,7 @@ Projeyi açacağımız dizine gelerek
 $ cordova create projeAdi
 ```
 
-[![](https://i2.wp.com/barisesen.com/wp-content/uploads/2016/07/cordova-projesi-oluştur.png?resize=300%2C169&ssl=1)](https://barisesen.com/index.php/cordova-android-push-notification/cordova-projesi-olustur/)
+![](https://res.cloudinary.com/deuit9vp2/image/upload/v1475668988/barisesencom/cordova-projesi-olu%C5%9Ftur.png)
 
 [Cordova push notification pluginini](https://github.com/phonegap/phonegap-plugin-push) projemize dahil ediyoruz.
 
@@ -66,7 +66,7 @@ $ cordova plugin add https://github.com/phonegap/phonegap-plugin-push --variable
 
 Sender_Id olarak yani xxxxx yerine kopyaladığımız project numberı yazıyoruz.
 
-[![](https://i2.wp.com/barisesen.com/wp-content/uploads/2016/07/plugini-ekledik-300x169.png?resize=300%2C169&ssl=1)](https://barisesen.com/index.php/cordova-android-push-notification/plugini-ekledik/)
+<!-- ![](https://i2.wp.com/barisesen.com/wp-content/uploads/2016/07/plugini-ekledik-300x169.png?resize=300%2C169&ssl=1) -->
 
 Projemize android platformunu ekliyoruz.
 
@@ -107,11 +107,11 @@ var push = PushNotification.init({ "android": {"senderID": "297336031131"},
 
 <span style="text-decoration: underline;">Sender id yerine kendi proje numaranızı yazmaya unutmayınız.</span>
 
-[![](https://i0.wp.com/barisesen.com/wp-content/uploads/2016/07/cordova-build.png?resize=300%2C169&ssl=1)](https://barisesen.com/index.php/cordova-android-push-notification/cordova-build/)
+![](https://res.cloudinary.com/deuit9vp2/image/upload/v1475669136/barisesencom/cordova-build.png)
 
 Uygulamayı build edip çalıştıdığımızda bize alert içinde bir id verecektir bu id o cihaz için tanımlanan uniq bir değerdir ve bildirimleri o id aracılığı ile göndereceğiz.
 
-[![](https://i2.wp.com/barisesen.com/wp-content/uploads/2016/07/Screenshot_2016-07-01-10-26-45.png?resize=169%2C300&ssl=1)](https://barisesen.com/index.php/cordova-android-push-notification/screenshot_2016-07-01-10-26-45/)
+![](https://res.cloudinary.com/deuit9vp2/image/upload/v1475669200/barisesencom/Screenshot_2016-07-01-10-26-45.png)
 
 Şimdi sırada bu id yi kullanarak bildirimi göndermeye geldi.Bunun için php kullanarak bir servis yazacağız.Bunun için aşşağıdaki kod bloğunu kullanabilirsiniz.
 
@@ -157,6 +157,6 @@ echo json_encode($result);
 
 Yukarıdaki kodu çalıştıdığınızda telefonunuzda tatlı bir ses ve biraz titreşim duymalısınız 🙂
 
-[![](https://i2.wp.com/barisesen.com/wp-content/uploads/2016/07/Screenshot_2016-07-01-08-49-09.png?resize=169%2C300&ssl=1)](https://barisesen.com/index.php/cordova-android-push-notification/screenshot_2016-07-01-08-49-09/)
+![](https://res.cloudinary.com/deuit9vp2/image/upload/v1475669262/barisesencom/bildirim.png)
 
 Sonuna kadar okuduğunuz için teşekkür ederim. Beni takip etmek istersen [GİTHUB](https://github.com/barisesen)

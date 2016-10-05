@@ -15,11 +15,11 @@ ssh-keygen -t rsa -b 4096 -C "githubmailadresiniz"
 ```
 Karşımıza aşağıdaki gibi bir soru gelecek, değiştirmeden entera basmamız yeterli olacaktır.
 
-![github ssh key](https://i2.wp.com/barisesen.com/wp-content/uploads/2016/08/Screenshot-from-2016-08-31-200903.png?resize=385%2C77&ssl=1)
+![github ssh key](https://res.cloudinary.com/deuit9vp2/image/upload/barisesencom/ssh_keygen_-t_rsa_-b_4096.png)
 
 Daha sonra bizden **passphrase** (_parola_) isteyecek oraya unutmayacağımız bir parola yazıyoruz.
 
-![github ssh key passphrase](https://i2.wp.com/barisesen.com/wp-content/uploads/2016/08/Screenshot-from-2016-08-31-201431.png?resize=384%2C242&ssl=1)
+![github ssh key passphrase](https://res.cloudinary.com/deuit9vp2/image/upload/barisesencom/ssh-key-passphrase.png)
 
 Başarıyla ssh-keyimizi oluşturuyoruz. Oluşan ssh keyi sistemimize tanıtmak için aşağıdaki komutu kullanmamız gerekecek.
 
@@ -37,22 +37,22 @@ Daha sonra aşağıdaki komutu girerek ssh keyi ekliyoruz.
 $ ssh-add ~/.ssh/id_rsa
 ```
 
-![ssh-add](https://i0.wp.com/barisesen.com/wp-content/uploads/2016/08/Screenshot-from-2016-08-31-201918.png?resize=371%2C115&ssl=1)
+![ssh-add](https://res.cloudinary.com/deuit9vp2/image/upload/barisesencom/eval-ssh-agent.png)
 
 Şimdi sıra ssh-key’i github profilimize eklemeye geldi. Bunun için github ayarlar sayfasından SSH and GPG keys sekmesine tıklıyoruz.
 
-![github-settings](https://i1.wp.com/barisesen.com/wp-content/uploads/2016/08/Screenshot-from-2016-08-31-202523.png?resize=648%2C348&ssl=1)
+![github-settings](https://res.cloudinary.com/deuit9vp2/image/upload/barisesencom/github-settings-page.png)
 
 Açılan sayfada New SSH key butonuna basıyoruz ve formda başlık kısmına istediğimiz başlığı yazıyoruz. Key kısmına da oluşturduğumuz keyi yazacağız. Kullanacağımız keye, terminalde anadizinde iken aşağıdaki komut ile ulaşabiiliriz.
 
 ```sh
 $ cat .ssh/id_rsa.pub
 ```
-![github ssh id_rsa.pub](https://i2.wp.com/barisesen.com/wp-content/uploads/2016/08/Screenshot-from-2016-08-31-203032.png?resize=648%2C231&ssl=1)
+![github ssh id_rsa.pub](https://res.cloudinary.com/deuit9vp2/image/upload/barisesencom/ssh-id-rsa-pub-cat.png)
 
 Çıktıyı kopyalıyor , key kısmına yazıyoruz ve kaydediyoruz.
 
-![github ssh key kayıt](https://i0.wp.com/barisesen.com/wp-content/uploads/2016/08/Screenshot-from-2016-08-31-203229.png?resize=648%2C194&ssl=1)
+![github ssh key kayıt](https://res.cloudinary.com/deuit9vp2/image/upload/barisesencom/github-ssh-key-kayit.png)
 
 Şimdi sıra test etmeye geldi bunun için terminalden githuba ssh bağlantısı deneyeceğiz.
 
@@ -62,12 +62,12 @@ $ ssh -T git@github.com
 
 Yukarıdaki gibi bir ssh bağlantısı kuruyoruz. Aşağıdaki gibi bir çıktı alırsak işlemimiz başarıyla sonuçlanmış olacaktır.
 
-![github ssh successfully auth](https://i1.wp.com/barisesen.com/wp-content/uploads/2016/08/Screenshot-from-2016-08-31-203415.png?resize=648%2C118&ssl=1)
+![github ssh successfully auth](https://res.cloudinary.com/deuit9vp2/image/upload/barisesencom/github-ssh-successfully-auth.png.png)
 
 Github’da ayar sayfasını yenilediğimizde ise
 
-![github ssh successfully](https://i1.wp.com/barisesen.com/wp-content/uploads/2016/08/Screenshot-from-2016-08-31-203427.png?resize=648%2C209&ssl=1)
+![github ssh successfully](https://res.cloudinary.com/deuit9vp2/image/upload/barisesencom/github-ssh-successfully.png)
 
 gibi bir erkran göreceğiz. Artık github kullanırken sürekli kullanıcı adı ve şifremizi girmemize gerek kalmadı.
 
-![github ssh kullanımı](https://i1.wp.com/barisesen.com/wp-content/uploads/2016/08/Screenshot-from-2016-08-31-203944.png?resize=648%2C355&ssl=1)
+![github ssh kullanımı](https://res.cloudinary.com/deuit9vp2/image/upload/barisesencom/github-ssh-key-test.png)

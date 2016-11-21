@@ -10,6 +10,7 @@ Ubuntu işletim sistemi üzerine nodejs kurmak oldukça basit. Kurulum için Ubu
 Ben kurulum için Digital Ocean'da ki bir sunucuyu kullandım ama normal kullandığımız bilgisayarada kurulumu birebir aynı şekildedir.
 
 Ubuntu'da kurulum için, aşağıdaki komutları kullanmamız yetecektir.
+
 ```sh
 $ curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
 ```
@@ -19,6 +20,7 @@ $ curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
 $ sudo apt-get install -y nodejs
 ```
 ![nodejs-intall-via-package-manager](https://res.cloudinary.com/deuit9vp2/image/upload/barisesencom/nodejs-intall-via-package-manager.png)
+
 ```sh
 $ sudo apt-get install -y build-essential
 ```

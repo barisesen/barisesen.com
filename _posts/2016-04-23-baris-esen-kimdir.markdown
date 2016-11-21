@@ -2,6 +2,7 @@
 layout: post
 title:  "Barış Esen Kimdir ?"
 date: 2016-04-23 15:50:58 +0300
+categories: barisesen
 permalink: hakkimda
 ---
 Merhabalar, Ben Barış;

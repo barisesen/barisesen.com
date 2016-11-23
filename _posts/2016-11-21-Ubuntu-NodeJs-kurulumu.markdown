@@ -2,7 +2,7 @@
 layout: post
 title:  "NodeJs kurulumu [Ubuntu]"
 date:   2016-11-21 07:22
-categories: NodeJs
+categories: nodejs
 permalink: /:title
 ---
 

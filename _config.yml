@@ -37,4 +37,4 @@ gems:
   - jekyll-paginate
 
 paginate_path: /:num/
-paginate: 3
+paginate: 5

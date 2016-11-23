@@ -2,7 +2,7 @@
 layout: post
 title:  "Github Ssh Key Eklenmesi [Ubuntu]"
 date:   2016-08-31 15:50:58 +0300
-categories: Github
+categories: github
 permalink: /:title
 ---
 

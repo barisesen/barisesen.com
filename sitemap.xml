@@ -15,17 +15,6 @@ layout: null
     <priority>1.0</priority>
   </url>
   {% endfor %}
-
-  <!-- {% assign categories = site.categories | sort %}
-   {% for category in categories %}
-   <url>
-     <loc>{{ site.url }}{{ site.baseurl }}/{{ category | first | slugify }}</loc>
-     <lastmod>{{ site.posts[0].date | date_to_xmlschema }}</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>0.8</priority>
-   </url>
- {% endfor %} -->
-
   {% for page in site.pages %}
   {% if page.sitemap != null and page.sitemap != empty %}
   <url>

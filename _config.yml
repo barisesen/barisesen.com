@@ -34,3 +34,10 @@ author:
 
 gems:
   - jekyll-seo-tag
+  - octopress-paginate
+
+pagination:
+  limit: false
+  per_page: 5
+  title_suffix: " (sayfa :num)"
+  permalink: /page/:num/  # => /page/2/index.html

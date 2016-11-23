@@ -34,7 +34,7 @@ author:
 
 gems:
   - jekyll-seo-tag
-  - octopress-paginate
+  # - octopress-paginate
 
 # pagination:
 #   limit: false

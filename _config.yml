@@ -36,8 +36,8 @@ gems:
   - jekyll-seo-tag
   - octopress-paginate
 
-pagination:
-  limit: false
-  per_page: 3
-  title_suffix: " (sayfa :num)"
-  permalink: /:num/  # => /page/2/index.html
+# pagination:
+#   limit: false
+#   per_page: 3
+#   title_suffix: " (sayfa :num)"
+#   permalink: /:num/  # => /page/2/index.html

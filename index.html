@@ -1,5 +1,6 @@
 ---
 layout: default
+paginate: true
 sitemap:
     priority: 0.7
     changefreq: 'monthly'
@@ -9,7 +10,7 @@ sitemap:
 <div class="home">
 
   <ul class="post-list">
-    {% for post in site.posts %}
+    {% for post in paginator.posts %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 

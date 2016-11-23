@@ -23,4 +23,4 @@ gem "minima"
 #   gem "jekyll-github-metadata", "~> 1.0"
 # end
 gem 'jekyll-seo-tag'
-gem 'octopress-paginate'
+gem 'jekyll-paginate'

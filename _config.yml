@@ -34,10 +34,7 @@ author:
 
 gems:
   - jekyll-seo-tag
-  - octopress-paginate
-safe: false
-pagination:
-  limit: false
-  per_page: 3
-  title_suffix: " (sayfa :num)"
-  permalink: /:num/  # => /page/2/index.html
+  - jekyll-paginate
+
+paginate_path: /:num/
+paginate: 3

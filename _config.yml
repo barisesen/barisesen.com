@@ -35,8 +35,7 @@ author:
 gems:
   - jekyll-seo-tag
   - octopress-paginate
-  - jekyll-paginate
-
+safe: true
 pagination:
   limit: false
   per_page: 3

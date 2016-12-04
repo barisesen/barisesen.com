@@ -12,7 +12,7 @@ Hızlıca başlamak gerekirse, öncelikle bir NodeJs projesi oluşturuyoruz. Bun
 
 
 ```sh
-$ npm init
+ $ npm init
 ```
 
 

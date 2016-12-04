@@ -9,6 +9,7 @@ permalink: /:title
 Bir önceki yazıda, NodeJs ile konsola "hello world" yazdırmıştık. Şimdi ExpressJs kütüphanesini kullanarak http de NodeJs'e merhaba dedirteceğiz. Kısaca ExpressJs, NodeJs için yazılmış, hızlı ve minimalist bir web frameworküdür. Framework, geliştiricilere projelerinde kullanacakları sınıfları, eklentileri vs. toplu bir şekilde sunulması denebilir.
 
 Hızlıca başlamak gerekirse, öncelikle bir NodeJs projesi oluşturuyoruz. Bunun için bir klasör oluşturup konsol yardımıyla klasörün içine giriyoruz ve npm i burada başlatıyoruz.
+
 ```sh
 $ npm init
 ```
@@ -17,6 +18,7 @@ Bize burada bir kaç soru soracak, onları doldurup devam ediyoruz. Projemizin k
 
 Şuanda elimizde bir NodeJs projesinin başlangıcı var. Buraya bizim ExpressJs kütüphanesinin
  dahil etmemiz gerecek bunun için konsola,
+
 ```sh
  $ sudo npm install express --save
 ```
@@ -57,6 +59,7 @@ komutu ile ana dizine bir GET isteği yapıldığında sayfaya "Hello World" yaz
 Burada ise http serveri 3000 portunda çalışmaya başlamasını söylüyoruz ve başladığında konsola "Example app listening on port 3000!" yazacaktır.
 
 Uygulamayı çalıştırmak için konsola,
+
 ```sh
 $ node index.js
 ```

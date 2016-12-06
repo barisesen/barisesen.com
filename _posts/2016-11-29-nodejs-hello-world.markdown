@@ -10,7 +10,7 @@ NodeJs ile "Hello World" yazmak aslında oldukça basit. Node.js konsolda çalı
 
 
 ```sh
-$ touch hello.js
+ $ touch hello.js
 ```
 
 
@@ -18,7 +18,7 @@ komutu ile açabilirler. Oluşturduğumuz dosyamızı text editörü yardımıyl
 
 
 ```sh
-$ atom hello.js
+ $ atom hello.js
 ```
 
 
@@ -31,7 +31,7 @@ komutu ile hızlıca açabilirsiniz.
 
 
 ```sh
-$ atom .
+ $ atom .
 ```
 
 
@@ -53,7 +53,7 @@ Kodun çıktısını konsolda görmek için konsola,
 
 
 ```sh
-$ node hello.js
+ $ node hello.js
 ```
 
 

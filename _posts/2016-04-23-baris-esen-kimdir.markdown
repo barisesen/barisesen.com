@@ -7,13 +7,13 @@ permalink: hakkimda
 ---
 Merhabalar, Ben Barış;
 
-Pamukkale Üniversitesi Bilgisayar Mühendisliği 1.sınıf öğrencisiyim. Bursa’nın MusatafaKemalPaşa ilçesinde doğdum ve büyüdüm. Şuan da Denizli’de yaşıyorum.
+Pamukkale Üniversitesi Bilgisayar Mühendisliği 2.sınıf öğrencisiyim. Bursa’nın MusatafaKemalPaşa ilçesinde doğdum ve büyüdüm. Şuan da Denizli’de yaşıyorum.
 
 Kendimi web teknolojileri alanında geliştirmek için çabalıyorum. Okula başlamadan önce yazılımla uğraşmışlığım yoktu. Sadece araştırır teorik bilgiler elde ederdim. Okula başlamamla birlikte Pamukkale Teknokent’de yeni şeyler öğrenmeye istekli arkadaşlarım ile birlikte php öğrenmeye başladım. Yazılıma ilk adımı aslında böyle atmış oldum.
 
 Aslında ilk teknokente gittiğimde aklımda web teknolojileri yoktu . Daha çok masaüstü yazılımcılığı düşünüyordum. Ama o an anladım ki web teknolojileri ile yapabilceklerimin sınırı hayallerimdi. O andan itibaren web teknolojilerini araştırmaya başladım hala da araştırmaya devam ediyorum. Ama bana web teknolojilerinin ,kurumsal web sitesi yapmaktan ibaret olmadığını anlatan ve bu konularda kafamı açan, düşüncelerimi geliştiren **Kemal Kanok**‘a bir teşekkürü borç bilirim.
 
-Aynı zamanda okulda C programlama dersi alarak C dilinin genel yapısını öğrendim. Yaklaşık 2 ay önce **symfony** öğrenmeye arkadaşım **[Çağatay Çalı](http://cagataycali.com/)**‘nın yardımlarıyla [**Erdem**](http://erdemoflaz.com) ile başladık. Özel bir hoca edasıyla kendi bilgi ve birikimini bize aktarmaya çalıştı.
+Aynı zamanda okulda C programlama dersi alarak C dilinin genel yapısını öğrendim. Yaklaşık 2 ay önce **symfony** öğrenmeye arkadaşım **[Çağatay Çalı](https://cagatay.me/)**‘nın yardımlarıyla [**Erdem**](http://erdemoflaz.com) ile başladık. Özel bir hoca edasıyla kendi bilgi ve birikimini bize aktarmaya çalıştı.
 
 Erdem ile birlikte öğrendiklerimizi projeler yaparak pekiştirmeye devam ettik. Yaptığımız çalışmaların hepsini Github üzerinden yürüttük. [( Yaptıgımız çalışmaları buradan inceleyebilirsiniz. )](https://github.com/SymfonyLearning)
 

@@ -6,6 +6,8 @@ version: 1.0
 #---------------------------------------------------------------
 # Build setting
 #---------------------------------------------------------------
+markdown: kramdown
+
 gems: [jekyll-paginate]
 # Config sass build output by sass_dir
 # Config sass output is compressed or not
@@ -38,7 +40,6 @@ permalink: /:title
 ## Set per_page to 0 to disable pagination
 paginate: 5
 paginate_path: /:num/
-markdown: kramdown
 
 
 # Writing

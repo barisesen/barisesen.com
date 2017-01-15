@@ -4,6 +4,9 @@ title:  "Cordova Location Plugin"
 date: 2017-01-15 14:00:00 +0300
 categories: cordova
 permalink: /:title
+author: [Barış Esen]
+tag: [cordova, mobil, hibrit, android, location]
+
 ---
 
 Merhaba arkadaslar, bu yazıda cordova ile lokasyon kullanımını anlatmaya çalışacağım. Cordova ile telefonun ve tarayıcının lokasyonunu almak oldukça basit. Bunun için hazır olarak bulunan cordova location plugini ni kullanacağız. [Cordova-location-plugini](https://github.com/apache/cordova-plugin-geolocation) adresinden plugini detaylıca inceleyebilirsiniz.

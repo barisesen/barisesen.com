@@ -1,40 +1,121 @@
-# Welcome to Jekyll!
+#---------------------------------------------------------------
+# Theme version infromation
+#---------------------------------------------------------------
+version: 1.0
+
+#---------------------------------------------------------------
+# Build setting
+#---------------------------------------------------------------
+gems: [jekyll-paginate]
+# Config sass build output by sass_dir
+# Config sass output is compressed or not
 #
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing these this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+sass:
+    sass_dir: /assets/stylesheet
+    style: :compressed
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Barış Esen
-email: iletisim@barisesen.com
-description: > # this means to ignore newlines until "baseurl:"
-  Barış Esen Pamukkale Üniversitesi Bilgisayar Mühendisliği 2. sınıf öğrencisi. Web geliştiriciliği ve web uygulamalrı güvenliğine ilgi duyuyorum .
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://barisesen.com" # the base hostname & protocol for your site
-# url: "http://localhost:4000" # the base hostname & protocol for your site
-twitter_username: barisesenn
-github_username:  barisesen
-# Build settings
-markdown: kramdown
-theme: minima
 
-twitter:
-  username: barisesenn
+#---------------------------------------------------------------
+# Site infromation setting
+#---------------------------------------------------------------
 
-author:
-  twitter: barisesenn
+# Site
+## You can create a locale setting at _locales and name *.yml
+title: "Barisesen.com"
+description: "Barış Esen Pamukkale Üniversitesi Bilgisayar Mühendisliği 2. sınıf öğrencisi. Web geliştiriciliği ve web uygulama güvenliğine ilgi duyuyorum."
+keywords: "Barış Esen, Pamukkale Üniversitesi, Bilgisayar Mühendisi, NodeJs, Php, Code, web, mobil, linux, yazılım, siber güvenlik"
+locale: "tr"
 
-gems:
-  - jekyll-seo-tag
-  - jekyll-paginate
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and baseurl as '/child/'
+# url: "http://localhost:4000"
+url: "https://barisesen.com"
+baseurl: ""
+permalink: /:title
 
-paginate_path: /:num/
+
+# Pagination
+## Set per_page to 0 to disable pagination
 paginate: 5
+paginate_path: /:num/
+
+
+# Writing
+highlighter: 'pygments'
+kramdown:
+  input:  GFM
+  enable_coderay: false
+  coderay:
+    coderay_line_numbers:  nil
+
+# RSS
+rss:
+  path: "/feed.xml"
+  icon: "rss"
+
+
+#---------------------------------------------------------------
+# Authour infromation setting
+#---------------------------------------------------------------
+
+# Author
+author:
+  name: "Barış Esen"
+  avatar: "https://res.cloudinary.com/deuit9vp2/image/upload/v1479924700/me.jpg"
+  motto: "Pamukkale Üniversitesi Bilgisayar Mühendisliği 2. sınıf öğrencisi. Web geliştiriciliği ve web uygulama güvenliğine ilgi duyuyorum."
+
+# Socials
+## If you want the social show,place sure the social no comment
+## The socials icon base font-awesome,you can learn more on http://fontawesome.io/icons/
+socials:
+    - name: "github"
+      url: "https://github.com/barisesen"
+      icon: "github"
+    - name: "facebook"
+      url: "https://www.facebook.com/brsesen"
+      icon: "facebook"
+    - name: "twitter"
+      url: "https://www.twitter.com/barisesenn"
+      icon: "twitter"
+    - name: "linkedin"
+      url: "https://tr.linkedin.com/in/barisesen"
+      icon: "linkedin"
+
+
+
+
+#---------------------------------------------------------------
+# Site comment setting
+#---------------------------------------------------------------
+
+comment:
+  enable: true
+
+# duoshuo
+duoshuo:
+  enable: false
+  short_name: "your duoshuo short_name"
+
+# disqus
+disqus:
+  enable: true
+  short_name: "barisesen"
+
+#---------------------------------------------------------------
+# Site share setting
+#---------------------------------------------------------------
+duoshuo_share:
+    enable: false
+
+#---------------------------------------------------------------
+# Site analysis setting
+#---------------------------------------------------------------
+# Baidu analysis
+baidu_analysis:
+  enable: false
+  token: "your baidu analysis token"
+
+# Google analysis
+google_analysis:
+  enable: true
+  token: "UA-76834314-1"

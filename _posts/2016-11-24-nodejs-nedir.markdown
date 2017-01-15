@@ -4,6 +4,9 @@ title:  "Node.js Nedir ?"
 date: 2016-11-24 23:50:58 +0300
 categories: nodejs
 permalink: /:title
+author: [Barış Esen]
+tag: [nodejs, Nedir]
+
 ---
 NodeJs, yaygın olarak web tarayıcılarında kullanılmakta olan dinamik bir programlama dili olan JavaScript'in, sunucu tarafında yani backend dili olarak kullanılabilmesine olanak sağlayan bir programlama dilidir. Bu durum sunucu ve istemci tarafında yazılan kodlar arasındaki farklılıkları ortadan kaldırarak, tek programlama dili ile tüm ihtiyaçların karşılanmasını amaçlamaktadır.
 

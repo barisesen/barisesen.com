@@ -1,26 +1,38 @@
 ---
 layout: default
-paginate: true
-sitemap:
-    priority: 0.7
-    changefreq: 'monthly'
-    lastmod: 2016-11-21 07:22
 ---
-
-<div class="home">
-
-  <ul class="post-list">
+<div class="col-md-9 col-content">
     {% for post in paginator.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-        </h2>
-        <span>{{post.content | strip_html | truncatewords:50 }}</span>
-      </li>
+      {% include posts.html%}
     {% endfor %}
-  </ul>
-  <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
-
+    <nav>
+        <ul class="pagination pagination-posts">
+          {% if paginator.total_pages > 1 %}
+              {% if paginator.previous_page %}
+                <li>
+                  <a href="{{ paginator.previous_page_path | prepend: site.url}}" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
+                </li>
+              {% endif %}
+              {% for page in (1..paginator.total_pages) %}
+                  {% if page == paginator.page %}
+                    <li class="active"><span>{{ page }}</span></li>
+                  {% elsif page == 1 %}
+                    <li><a href="{{ site.url }}">{{ page }}</a></li>
+                  {% else %}
+                    <li><a href="{{ site.baseurl | prepend: site.url }}/page{{ page }}">{{ page }}</a></li>
+                  {% endif %}
+                  {% endfor %}
+              {% if !paginator.next_page %}
+                  <li>
+                    <a href="{{ paginator.next_page_path | prepend: site.baseurl | prepend: site.url}}" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
+                  </li>
+              {% endif %}
+            {% endif %}
+        </ul>
+    </nav>
+</div>
+<div class="col-md-3 col-sidebar">
+    {% include sidebar_author.html%}
+    {% include sidebar_categories.html%}
+    {% include sidebar_tags.html%}
 </div>

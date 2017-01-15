@@ -4,6 +4,9 @@ title:  "Cordovaya Giriş"
 date: 2017-01-12 10:00:00 +0300
 categories: cordova
 permalink: /:title
+author: [Barış Esen]
+tag: [cordova, mobil, hibrit, android, "hello world"]
+
 ---
 Mobil uygulama geliştirme günümüzde oldukça popüler. Tüm platformlara uygulama geliştirmek önceleri oldukça meşaketli ve uzun süren bir süreçti. Her platforma özgü programlama dilini öğrenmeli ve daha sonra uygulamayı hayata geçirmek gerekiyordu. Cordova bu durumda yardımımıza koşuyor.
 

@@ -4,6 +4,9 @@ title:  "Cordova Android Push Notification"
 date:   2016-07-01 14:41:58 +0300
 categories: cordova
 permalink: /:title
+author: [Barış Esen]
+tag: [cordova, mobil, hibrit, android, notification, GCM]
+
 ---
 Mobil uygulama geliştirme günümüzde oldukça popüler. Tüm platformlara uygulama geliştirmek önceleri oldukça meşaketli ve uzun süren bir süreçti. Her platforma özgü programlama dilini öğrenmeli ve daha sonra uygulamayı hayata geçirmek gerekiyordu. Cordova bu durumda yardımımıza koşuyor.
 

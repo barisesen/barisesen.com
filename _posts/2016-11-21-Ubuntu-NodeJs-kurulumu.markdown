@@ -4,6 +4,9 @@ title:  "NodeJs kurulumu [Ubuntu]"
 date:   2016-11-21 07:22
 categories: nodejs
 permalink: /:title
+author: [Barış Esen]
+tag: [nodejs, kurulum, Ubuntu]
+
 ---
 
 Ubuntu işletim sistemi üzerine nodejs kurmak oldukça basit. Kurulum için Ubuntu paket yöneticisini kullanacağız.

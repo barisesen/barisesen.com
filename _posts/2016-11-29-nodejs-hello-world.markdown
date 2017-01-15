@@ -4,6 +4,9 @@ title:  "Node.js Hello World"
 date: 2016-11-30 14:50:58 +0300
 categories: nodejs
 permalink: /:title
+author: [Barış Esen]
+tag: [nodejs, "hello world"]
+
 ---
 
 NodeJs ile "Hello World" yazmak aslında oldukça basit. Node.js konsolda çalışabildiği için ilk merhabamızı konsola "Hello World" yazdırarak yapacağız. Bunun için hello.js adında bir dosya oluşturuyoruz. Linux kullananlar bunu hızlıca konsola bulundukları dizinde,

@@ -4,6 +4,9 @@ title:  "Barış Esen Kimdir ?"
 date: 2016-04-23 15:50:58 +0300
 categories: barisesen
 permalink: hakkimda
+author: [Barış Esen]
+tag: ["Barış Esen", Kimdir]
+
 ---
 Merhabalar, Ben Barış;
 

@@ -4,6 +4,9 @@ title:  "Node.js Express.js Hello World"
 date: 2016-11-30 17:50:58 +0300
 categories: nodejs
 permalink: /:title
+author: [Barış Esen]
+tag: [nodejs, "hello world", expressjs]
+
 ---
 
 Bir önceki yazıda, NodeJs ile konsola "hello world" yazdırmıştık. Şimdi ExpressJs kütüphanesini kullanarak http de NodeJs'e merhaba dedirteceğiz. Kısaca ExpressJs, NodeJs için yazılmış, hızlı ve minimalist bir web frameworküdür. Framework, geliştiricilere projelerinde kullanacakları sınıfları, eklentileri vs. toplu bir şekilde sunulması denebilir.

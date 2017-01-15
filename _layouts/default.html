@@ -1,17 +1,15 @@
-{% include header.html %}
-  <main class="page-content" aria-label="Content">
-    <div class="wrapper">
-        {{ content }}
+<!DOCTYPE html>
+<html lang="zh_cn">
+  {% include head.html %}
+<body>
+  {% include navbar.html%}
 
-        <ul class="pagination">
-          {% if paginator.previous_page_path %}
-            <li><a href="{{paginator.previous_page_path}}">❮</a></li>
-          {% endif %}
-          {% if paginator.next_page_path %}
-            <li style="float: right;" ><a href="{{paginator.next_page_path}}">❯</a></li>
-          {% endif %}
-        </ul>
-    </div>
+  <div class="container page-content">
+    {{ content }}
+  </div>
 
-  </main>
-{% include footer.html %}
+  {% include footer.html%}
+
+  {% include script.html %}
+</body>
+</html>

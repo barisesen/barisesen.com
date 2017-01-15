@@ -38,6 +38,7 @@ permalink: /:title
 ## Set per_page to 0 to disable pagination
 paginate: 5
 paginate_path: /:num/
+markdown: kramdown
 
 
 # Writing

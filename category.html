@@ -1,17 +1,8 @@
 ---
 layout: default
----
-<div class="col-md-9 col-content">
-    <section class="category">
-      {% for post in page.category.last %}
-            {% include posts.html%}
-      {% endfor %}
-    </section>
-</div>
-<div class="col-md-3 col-sidebar">
-    {% include sidebar_categories.html %}
-</div>
+permalink: /kategori/
 
+---
 <div class="col-md-9 col-content">
     {% for category in site.categories%}
     <div class="panel panel-pithy tag" id="{{category.first}}">

@@ -7,7 +7,7 @@
         <ul>
           {% for category in site.categories %}
           <li>
-              <a class="catelink" href="{{site.baseurl}}/kategori/{{category.first}}">
+              <a class="catelink" href="{{site.baseurl}}/kategori/#{{category.first}}">
                   {{ category.first }}&nbsp;<span class="count">[{{ category.last.size }}]</span>
               </a>
           </li>

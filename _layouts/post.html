@@ -10,7 +10,7 @@ layout: default
                 </h3>
                 <ul class="info">
                     <li>
-                      {{ 'post.author' | translate }} <a href="{{site.url}}/hakkimda"><span class="author">{{ page.author }}</span></a>
+                      Yazar: <a href="{{site.url}}/hakkimda"><span class="author">{{ page.author }}</span></a>
                     </li>
                     <li>
                       {{ page.date | date: "%b %-d, %Y" }}
@@ -19,7 +19,7 @@ layout: default
                       <a href="{{site.url}}/kategori/{{page.categories}}">{{ page.categories }}</a>
                     </li>
                     <li>
-                      {{ 'post.tags' | translate }}
+                      Etiketler
                      {% for tag in page.tags %}
                          <a class="tag" href="{{site.baseurl}}/tag/#{{ tag }}">{{ tag }}</a>
                      {% endfor %}

@@ -41,12 +41,12 @@ paginate_path: /:num/
 
 
 # Writing
-highlighter: 'pygments'
-kramdown:
-  input:  GFM
-  enable_coderay: false
-  coderay:
-    coderay_line_numbers:  nil
+# highlighter: 'pygments'
+# kramdown:
+#   input:  GFM
+#   enable_coderay: false
+#   coderay:
+#     coderay_line_numbers:  nil
 
 # RSS
 rss:

@@ -24,7 +24,7 @@ sass:
 title: "Barisesen.com"
 description: "Barış Esen Pamukkale Üniversitesi Bilgisayar Mühendisliği 2. sınıf öğrencisi. Web geliştiriciliği ve web uygulama güvenliğine ilgi duyuyorum."
 keywords: "Barış Esen, Pamukkale Üniversitesi, Bilgisayar Mühendisi, NodeJs, Php, Code, web, mobil, linux, yazılım, siber güvenlik"
-locale: "tr"
+locale: "en"
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and baseurl as '/child/'

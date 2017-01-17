@@ -1,9 +1,9 @@
 <!-- this is post list -->
 <div class="panel panel-pithy posts">
     <div class="panel-heading">
-      <h3 class="title">
+      <h2 class="title">
         <a href="{{ post.url | prepend: site.baseurl}}"><i class="fa fa-bookmark-o"></i>{{post.title}}</a>
-      </h3>
+      </h2>
     </div>
     <div class="panel-body excerpt">
         {% if post.excerpt.size > 32 %}

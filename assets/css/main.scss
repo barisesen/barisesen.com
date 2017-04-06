@@ -552,7 +552,7 @@ img {
 /* Meta info after post-title */
 .post-meta {
   color: $gray-light;
-  padding: 1.5em 0 2em 0;
+  padding: 0.5em 0 2em 0;
   letter-spacing: 1px;
   @include MQ(M) {
     font-size: 18px;    

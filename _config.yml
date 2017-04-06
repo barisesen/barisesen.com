@@ -38,7 +38,6 @@ markdown: kramdown
 
 # Permalinks
 permalink: /:title/
-# title da dikkat
 
 # Pagination config
 paginate: 5

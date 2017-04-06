@@ -1,0 +1,4 @@
+- title: "Hakkımda" # Title/Caption of the menu item
+  href: "/hakkimda" # the page where it pointed
+- title: "Blog Arşiv"
+  href: "/archive"

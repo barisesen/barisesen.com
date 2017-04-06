@@ -1,123 +1,60 @@
-#---------------------------------------------------------------
-# Theme version infromation
-#---------------------------------------------------------------
-version: 1.0
+# Site settings
+title: Barış Esen
+tagline: 
+email: iletisim@barisesen.com
+description: > # this means to ignore newlines until "baseurl:"
+  Pamukkale Üniversitesi Bilgisayar Mühendisliği 2. sınıf öğrencisi. Web geliştiriciliği ve web uygulama güvenliğine ilgi duyuyorum.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://barisesen.com" # the base hostname & protocol for your site
+logourl: /assets/images/logo.png # Site logo
+author: "Barış Esen"
+author_thumbnail: "/assets/images/avatar.jpg" # Author avatar
+# Theme customization - please change from the defaults!
+theme:
+  # Color for sidebar bar, links, etc
+  highlight_color: "#205081" #205081" # "#272935"
+  # Social media links, leave blank to ignore
+  social:
+    github: barisesen
+    twitter: barisesenn
+    facebook: brsesen
+    gplus: +106419422520895310007
 
-#---------------------------------------------------------------
-# Build setting
-#---------------------------------------------------------------
+  # Enable share buttons on post footer
+  show_share_buttons: true
+
+  # Show author picure, name and social links on post footer
+  show_author_info: true
+
+  # Disqus comments manager - shortname
+  # disqus_shortname: gaya-webcreate
+
+  # Google Analytics/Webmaster key, leave blank to ignore
+  google_analytics_key: UA-76834314-1
+  google_webmaster_key:
+
+# Build settings
 markdown: kramdown
 
-gems: [jekyll-paginate]
-# Config sass build output by sass_dir
-# Config sass output is compressed or not
-#
-sass:
-    sass_dir: /assets/stylesheet
-    style: :compressed
-
-
-#---------------------------------------------------------------
-# Site infromation setting
-#---------------------------------------------------------------
-
-# Site
-## You can create a locale setting at _locales and name *.yml
-title: "Barisesen.com"
-description: "Barış Esen Pamukkale Üniversitesi Bilgisayar Mühendisliği 2. sınıf öğrencisi. Web geliştiriciliği ve web uygulama güvenliğine ilgi duyuyorum."
-keywords: "Barış Esen, Pamukkale Üniversitesi, Bilgisayar Mühendisi, NodeJs, Php, Code, web, mobil, linux, yazılım, siber güvenlik"
-locale: "en"
-
-# URL
-## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and baseurl as '/child/'
-# url: "http://localhost:4000"
-url: "https://barisesen.com"
-baseurl: ""
+# Permalinks
 permalink: /:title
 
-
-# Pagination
-## Set per_page to 0 to disable pagination
+# Pagination config
 paginate: 5
-paginate_path: /:num/
 
+# Files/Folders to be excluded from generated _site folder
+exclude:
+  - CNAME
+  - Gemfile
+  - Rakefile
+  - README.md
+  - .gitignore
+  - .sass-cache
+  - Gemfile.lock
 
-# Writing
-# highlighter: 'pygments'
-# kramdown:
-#   input:  GFM
-#   enable_coderay: false
-#   coderay:
-#     coderay_line_numbers:  nil
+# Sass conversion configs
+sass:
+  sass_dir: assets/css/_sass
+  style: :compressed
 
-# RSS
-rss:
-  path: "/feed.xml"
-  icon: "rss"
-
-
-#---------------------------------------------------------------
-# Authour infromation setting
-#---------------------------------------------------------------
-
-# Author
-author:
-  name: "Barış Esen"
-  avatar: "https://res.cloudinary.com/deuit9vp2/image/upload/v1479924700/me.jpg"
-  motto: "Pamukkale Üniversitesi Bilgisayar Mühendisliği 2. sınıf öğrencisi. Web geliştiriciliği ve web uygulama güvenliğine ilgi duyuyorum."
-
-# Socials
-## If you want the social show,place sure the social no comment
-## The socials icon base font-awesome,you can learn more on http://fontawesome.io/icons/
-socials:
-    - name: "github"
-      url: "https://github.com/barisesen"
-      icon: "github"
-    - name: "facebook"
-      url: "https://www.facebook.com/brsesen"
-      icon: "facebook"
-    - name: "twitter"
-      url: "https://www.twitter.com/barisesenn"
-      icon: "twitter"
-    - name: "linkedin"
-      url: "https://tr.linkedin.com/in/barisesen"
-      icon: "linkedin"
-
-
-
-
-#---------------------------------------------------------------
-# Site comment setting
-#---------------------------------------------------------------
-
-comment:
-  enable: true
-
-# duoshuo
-duoshuo:
-  enable: false
-  short_name: "your duoshuo short_name"
-
-# disqus
-disqus:
-  enable: true
-  short_name: "barisesen"
-
-#---------------------------------------------------------------
-# Site share setting
-#---------------------------------------------------------------
-duoshuo_share:
-    enable: false
-
-#---------------------------------------------------------------
-# Site analysis setting
-#---------------------------------------------------------------
-# Baidu analysis
-baidu_analysis:
-  enable: false
-  token: "your baidu analysis token"
-
-# Google analysis
-google_analysis:
-  enable: true
-  token: "UA-76834314-1"
+gems: [jekyll-paginate]

@@ -1,6 +1,11 @@
 ---
 layout: page
-title: 404
+title: "404 Page Not Found"
+permalink: 404.html
 ---
-<p>Üzgünüm, sayfayı bulamadım. Seni anasayfaya yönlendiriyorum..</p>
-<meta http-equiv="refresh" content="3; url=/">
+
+<h4>The page you were looking for is not found.</h4>
+<p>Sorry, we've misplaced that URL or it's pointing to something that doesn't 
+exist. Please 
+<a href="{{ '' | prepend: site.baseurl | prepend: site.url | append: '/' }}">
+head back home</a> to try finding it again.</p>

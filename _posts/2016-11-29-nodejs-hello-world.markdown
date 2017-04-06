@@ -3,7 +3,7 @@ layout: post
 title:  "Node.js Hello World"
 date: 2016-11-30 14:50:58 +0300
 categories: nodejs
-permalink: /:title
+permalink: /:title/
 author: [Barış Esen]
 tag: [nodejs, "hello world"]
 

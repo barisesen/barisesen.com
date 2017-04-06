@@ -3,7 +3,7 @@ layout: post
 title:  "Cordovaya Giriş"
 date: 2017-01-12 10:00:00 +0300
 categories: cordova
-permalink: /:title
+permalink: /:title/
 author: [Barış Esen]
 tag: [cordova, mobil, hibrit, android, "hello world"]
 

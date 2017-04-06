@@ -3,7 +3,7 @@ layout: post
 title:  "Github Ssh Key Eklenmesi [Ubuntu]"
 date:   2016-08-31 15:50:58 +0300
 categories: github
-permalink: /:title
+permalink: /:title/
 author: [Barış Esen]
 tag: [github, git, kurulum, Ubuntu, ssh]
 

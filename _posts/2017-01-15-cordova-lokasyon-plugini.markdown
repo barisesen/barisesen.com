@@ -3,7 +3,7 @@ layout: post
 title:  "Cordova Location Plugin"
 date: 2017-01-15 14:00:00 +0300
 categories: cordova
-permalink: /:title
+permalink: /:title/
 author: [Barış Esen]
 tag: [cordova, mobil, hibrit, android, location]
 

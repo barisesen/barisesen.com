@@ -3,7 +3,7 @@ layout: post
 title:  "Node.js Nedir ?"
 date: 2016-11-24 23:50:58 +0300
 categories: nodejs
-permalink: /:title
+permalink: /:title/
 author: [Barış Esen]
 tag: [nodejs, Nedir]
 

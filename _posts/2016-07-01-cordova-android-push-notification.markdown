@@ -3,7 +3,7 @@ layout: post
 title:  "Cordova Android Push Notification"
 date:   2016-07-01 14:41:58 +0300
 categories: cordova
-permalink: /:title
+permalink: /:title/
 author: [Barış Esen]
 tag: [cordova, mobil, hibrit, android, notification, GCM]
 

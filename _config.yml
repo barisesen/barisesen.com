@@ -37,7 +37,7 @@ theme:
 markdown: kramdown
 
 # Permalinks
-permalink: /:title
+permalink: /:title/
 
 # Pagination config
 paginate: 5

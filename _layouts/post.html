@@ -5,8 +5,8 @@ layout: default
 
   {% if page.banner_image %}
   <div class="banner-image">
-    <img 
-        src="{{ "/assets/images/" | append: page.banner_image | prepend: site.baseurl | prepend: site.url }}" 
+    <img
+        src="{{ "/assets/images/" | append: page.banner_image | prepend: site.baseurl | prepend: site.url }}"
         alt="{{ page.banner_image_alt }}">
   </div>
   {% endif %}
@@ -26,13 +26,13 @@ layout: default
       </span> |
     {% endif %}
     <span class="post-date">
-    {{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}  
+    {{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}
     </span>
     </p>
   </header>
 
   <article class="post-content">
-    {{ content }}    
+    {{ content }}
   </article>
 
   {% if site.related_posts %}
@@ -56,28 +56,28 @@ layout: default
   <div class="author-info">
     <div class="author">
       <a href="{{ '/hakkimda' | prepend: site.baseurl | prepend: site.url }}">
-        <img 
+        <img
           src="{{ site.author_thumbnail | prepend: site.baseurl | prepend: site.url }}"
           alt="{{ site.title }}" width="60" height="60" />
       </a>
 
       <h5>Author</h4>
       <h6>
-        <a href="{{ '/about' | prepend: site.baseurl | prepend: site.url }}">
+        <a href="{{ '/hakkimda' | prepend: site.baseurl | prepend: site.url }}">
           Barış Esen
         </a>
       </h5>
       <p>
-        <a title="barisesenn on Twitter" 
-            href="https://twitter.com/barisesenn" 
+        <a title="barisesenn on Twitter"
+            href="https://twitter.com/barisesenn"
             class="twitter" target="_blank">Twitter</a>
         /
-        <a title="brsesen on Facebook" 
-            href="https://facebook.com/brsesen" 
+        <a title="brsesen on Facebook"
+            href="https://facebook.com/brsesen"
             class="facebook" target="_blank">Facebook</a>
         /
-        <a title="Barış Esen on Google Plus" 
-            href="https://plus.google.com/106419422520895310007" 
+        <a title="Barış Esen on Google Plus"
+            href="https://plus.google.com/106419422520895310007"
             class="google" target="_blank">Google</a>
       </p>
     </div>
@@ -85,25 +85,25 @@ layout: default
       <h5>Share this post on</h5>
       <ul class="social-media">
         <li>
-            <a title="{{ site.theme.social.twitter }} on Twitter" 
+            <a title="{{ site.theme.social.twitter }} on Twitter"
               href="https://twitter.com/intent/tweet?original_referer={{site.url}}{{page.url}}&amp;text={{page.title}}&amp;url={{site.url}}{{page.url}}" class="twitter wc-img-replace" target="_blank">
               Twitter
             </a>
-        </li>   
+        </li>
         <li>
-            <a title="{{ site.theme.social.gplus }} on Google Plus" 
-                href="https://plus.google.com/share?url={{site.url}}{{page.url}}" 
+            <a title="{{ site.theme.social.gplus }} on Google Plus"
+                href="https://plus.google.com/share?url={{site.url}}{{page.url}}"
                 class="google wc-img-replace" target="_blank">Google</a>
         </li>
         <li>
-            <a title="{{ site.theme.social.facebook }} on Facebook" 
-                href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{page.url}}&amp;t={{page.title}}" 
+            <a title="{{ site.theme.social.facebook }} on Facebook"
+                href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{page.url}}&amp;t={{page.title}}"
                 class="facebook wc-img-replace" target="_blank">Facebook</a>
         </li>
       </ul>
     </div>
   </div>
-  
+
   {% if page.comments %}
     <div class="comments">
         <a href="javascript:;" class="load-view">View Comments...</a>

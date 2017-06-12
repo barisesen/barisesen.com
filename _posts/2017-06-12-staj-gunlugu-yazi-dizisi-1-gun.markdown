@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Bilgisayar Mühendisliği Staj Günlüğü 1. Gün"
+title:  "Bilgisayar Mühendisliği Staj Günlüğü Gün 1"
 date: 2017-06-12 23:00:00 +0300
 categories: staj
 permalink: /:title/

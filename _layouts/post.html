@@ -102,13 +102,17 @@ layout: default
         </li>
       </ul>
     </div>
+
+      <script src="https://apis.google.com/js/plusone.js"></script>
+      <div id="comments"></div>
+      <script>
+      gapi.comments.render('comments', {
+          href: window.location,
+          width: '624',
+          first_party_property: 'BLOGGER',
+          view_type: 'FILTERED_POSTMOD'
+      });
+      </script>
   </div>
 
-  {% if page.comments %}
-    <div class="comments">
-        <a href="javascript:;" class="load-view">View Comments...</a>
-        <div id="disqus_thread"></div>
-        <div id="g-comments"></div>
-    </div>
-  {% endif %}
 </div>

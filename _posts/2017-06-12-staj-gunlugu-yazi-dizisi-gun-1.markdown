@@ -8,8 +8,6 @@ author: [Barış Esen]
 tag: [pau, bilgisayar, mühendislik, staj, defteri, netinternet, laravel, pamukkale]
 
 ---
-Netinternet 1. Staj Günü
-
 5 Haziran Pazartesi günü staja başladım.
 Netinternet firması bir veri merkezi olarak çalışıyor. İşler genel anlamda sistem tarafında oluyor ama aynı zamanda bir yazılım ekibi de var. Yazılım ekibinin görevi sürekli kullanılan sistemlerin kolay yönetilebilir hale getirilmesini sağlamak. Bende yazılım tarafında bulunuyorum. Yazılım tarafında yapılan işlere örnek vermek gerekirse kullanıcıların siparişlerinin alınması ödeme işlemlerinin gerçekleştirilmesi kısaca veri merkeziyle kullanıcılar, müşteriler arasında bir köprü vazifesi görmek.
 

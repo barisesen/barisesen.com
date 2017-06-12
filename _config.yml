@@ -1,6 +1,6 @@
 # Site settings
 title: Barış Esen
-tagline: 
+tagline:
 email: iletisim@barisesen.com
 description: > # this means to ignore newlines until "baseurl:"
   Pamukkale Üniversitesi Bilgisayar Mühendisliği 2. sınıf öğrencisi. Web geliştiriciliği ve web uygulama güvenliğine ilgi duyuyorum.
@@ -40,7 +40,7 @@ markdown: kramdown
 permalink: /:title/
 
 # Pagination config
-paginate: 5
+paginate: 10
 
 # Files/Folders to be excluded from generated _site folder
 exclude:

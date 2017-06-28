@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Bilgisayar Mühendisliği Staj Günlüğü"
-date: 2017-06-12 10:00:00 +0300
+date: 2019-06-12 10:00:00 +0300
 categories: staj
 permalink: /:title/
 author: [Barış Esen]

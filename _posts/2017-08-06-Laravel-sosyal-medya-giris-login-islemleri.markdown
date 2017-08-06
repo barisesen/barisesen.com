@@ -7,7 +7,7 @@ permalink: /:title/
 author: [Barış Esen]
 tag: [laravel, facebook, twitter, google, login, php, laravel facebook login, facebook giris, giris, social, laravel social]
 ---
-# Laravel ile Sosyal Medya Girişleri
+# Laravel Social
 Günümüzde sosyal medya hesaplarımızı diğer uygulama giriş için aktif olarak kullanıyoruz. Kullanıcılar için oldukça büyük rahatlık sağlıyor. Bende kişisel olarak bir uygulamayı kullanacağım zaman email adresimi yazmak yerine var ise direk sosyal medya hesaplarım ile giriş yapmayı tercih ediyorum. Bu yazıda laravel ile geliştirilen bir uygulamaya sosyal medya hesaplarıyla giriş işlemini nasıl uygulayacağımızı anlatmaya çalışacağım. Bu işlem için offical paketler arasında yer alan Laravel/Social ı kullanabiliriz. [Laravel Social github](https://github.com/laravel/socialite) adresinden detaylara bakabilirsiniz.
 
 ## Laravel ile Facebook Login -Giriş- işlemi

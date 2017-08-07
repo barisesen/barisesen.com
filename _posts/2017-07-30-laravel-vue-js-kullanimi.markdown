@@ -9,7 +9,7 @@ tag: [laravel, vue, js, vue js, frontend, php]
 ---
 
 ## Vue Js nedir?
-Vue Js, web arayüz geliştirme işlerini kolaylaştırmak için geliştirilmiş bir javascript kütüphanesidir. Hızlıca geliştirme yapılabilen bir yapısı olduğunu düşünüorum. Vue Js öğrenmek için Türkçe kaynakta gün geçtikçe artmaya devam ediyor. Benim bildiğim ve takip ettiğim ana kaynak Fatih Acet'in youtube kanalı. Kanalın linkine yazının altından ulaşabilirsiniz.
+Vue Js, web arayüz geliştirme işlerini kolaylaştırmak için geliştirilmiş bir javascript kütüphanesidir. Hızlıca geliştirme yapılabilen bir yapısı olduğunu düşünüyorum. Vue Js öğrenmek için Türkçe kaynakta gün geçtikçe artmaya devam ediyor. Benim bildiğim ve takip ettiğim ana kaynak Fatih Acet'in youtube kanalı. Kanalın linkine yazının altından ulaşabilirsiniz.
 
 ## Laravel'de Vue Js Kullanmaya Başlamak
 Ben şuan da Laravel'in şuan için son veriyonu olan 5.4 kullanıyorum. 5.4'de Vue js kullanıma hazır bir şekilde geliyor. Sadece npm paketlerini kurmamız gerekiyor. Bunun için uygulama dizininde,

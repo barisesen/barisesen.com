@@ -8,7 +8,6 @@ author: [Barış Esen]
 tag: [laravel, e2e, browser, test, otomasyon, php, laravel test]
 ---
 
-# Laravel ile Test Yazmaya Başlamak
 ## Test nedir? Neden Test Yazmalıyız?
 Test, kısaca yazdığımız kodda ki hataları kullanıcıdan önce bulmamızı kolaylıştıracak ve sistemimizi daha kolay kontrol altında tutmamıza yarayan şeydir. Sistem büyüdüğünde yaptığımız küçük değişiklikler farklı yerleri etkileyebiliyor ve o an bunları bulmamız güç oluyor. Sırtımızı testlere dayadığımızda ise herhangi bir hata olursa kodu daha deploy etmeden önce hatalarımızı yakalayabiliyoruz.
 Test yazalım yazdıralım :)

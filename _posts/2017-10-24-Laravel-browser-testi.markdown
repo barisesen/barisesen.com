@@ -1,6 +1,7 @@
+---
 layout: post
 title:  "Laravel Browser Testi | Dusk"
-date: 2017-08-06 18:00:00 +0300
+date: 2017-10-24 00:00:00 +0300
 categories: Laravel
 permalink: /:title/
 author: [Barış Esen]

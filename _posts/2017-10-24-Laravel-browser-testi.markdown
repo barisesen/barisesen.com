@@ -62,6 +62,10 @@ php artisan dusk:make PostTest
         });
     }
 ```
+
+![laravel DUSK browser e2e](https://res.cloudinary.com/deuit9vp2/image/upload/v1508795391/barisesencom/browser-test.png)
+
+
 Dusk kullanırken standart css selektörlerini kullanabiliyoruz. oluşturduğumuz test fonksiyonunun üzerine /** @test */ eklememiz gerekiyor. assertSee ile gittiğimiz sayfayı doğruluyoruz. Yani ->assertSee('E-Mail Address') şeklinde bir tanımlama yaptığımızda o sayfada E-Mail Address olup olmadığına bakıyor var ise true yok ise false dönüyor. Herhangi biri false olursa testimiz başarısız olucaktır.
 Örnekteki gibi senaryolar üreterek sistemimizi gerçek bir kullanıcı hareketlerini taklit ederek basitçe test edebiliriz.
 

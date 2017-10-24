@@ -69,4 +69,4 @@ php artisan dusk:make PostTest
 Dusk kullanırken standart css selektörlerini kullanabiliyoruz. oluşturduğumuz test fonksiyonunun üzerine /** @test */ eklememiz gerekiyor. assertSee ile gittiğimiz sayfayı doğruluyoruz. Yani ->assertSee('E-Mail Address') şeklinde bir tanımlama yaptığımızda o sayfada E-Mail Address olup olmadığına bakıyor var ise true yok ise false dönüyor. Herhangi biri false olursa testimiz başarısız olucaktır.
 Örnekteki gibi senaryolar üreterek sistemimizi gerçek bir kullanıcı hareketlerini taklit ederek basitçe test edebiliriz.
 
-Eksik gördüğünüz yerleri iletirseniz, makaleyi güncelleebilirim. Teşekkürler.
+Eksik gördüğünüz yerleri iletirseniz, makaleyi güncelleyebilirim. Teşekkürler.
